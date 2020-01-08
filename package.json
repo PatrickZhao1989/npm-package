@@ -1,0 +1,30 @@
+{
+	"name": "sample",
+	"version": "1.0.0",
+	"description": "This is the sample npm module",
+	"main": "index.ts",
+	"scripts": {
+		"start": "node dist/index.js",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PatrickZhao1989/npm-package.git"
+	},
+	"keywords": [
+		"node",
+		"npm",
+		"private",
+		"registry"
+	],
+	"author": "Patrick Zhao",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PatrickZhao1989/npm-package/issues"
+	},
+	"homepage": "https://github.com/PatrickZhao1989/npm-package#readme",
+	"dependencies": {
+		"@types/node": "^13.1.4"
+	}
+}
